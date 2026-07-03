@@ -3,6 +3,7 @@
     "ableton",
     "algorithmic-music",
     "analysis",
+    "api",
     "audio-framework",
     "audio-interface",
     "augmentation",
@@ -16,6 +17,7 @@
     "fx",
     "livecoding",
     "looping",
+    "machine-learning",
     "max-msp",
     "midi",
     "monome",
@@ -28,6 +30,7 @@
     "sequencer",
     "speech",
     "supercollider",
+    "symbolic",
     "synthesis",
     "timestretching",
     "tracker",
@@ -56,6 +59,13 @@
       "desc": "A library for audio and music analysis.",
       "url": "https://aubio.org",
       "repo": "https://github.com/aubio/aubio"
+    },
+    {
+      "name": "audiocraft",
+      "category": "machine-learning",
+      "desc": "Audiocraft is a library for audio processing and generation with deep learning. It features the state-of-the-art EnCodec audio compressor / tokenizer, along with MusicGen, a simple and controllable music generation LM with textual and melodic conditioning.",
+      "url": null,
+      "repo": "https://github.com/facebookresearch/audiocraft"
     },
     {
       "name": "audiohit",
@@ -219,6 +229,13 @@
       "repo": "https://github.com/DBraun/DawDreamer"
     },
     {
+      "name": "demucs",
+      "category": "analysis",
+      "desc": "Music Source Separation: capable of separating drums, bass, and vocals from the rest of the accompaniment.",
+      "url": null,
+      "repo": "https://github.com/adefossez/demucs"
+    },
+    {
       "name": "dplug",
       "category": "plugins",
       "desc": "Audio plugin framework. VST2/VST3/AU/AAX/LV2 for Linux/macOS/Windows.",
@@ -231,6 +248,13 @@
       "desc": "A Python DSL for defining DSP signal graphs, compiling them to optimized C++",
       "url": null,
       "repo": "https://github.com/shakfu/dsp-graph"
+    },
+    {
+      "name": "espnet",
+      "category": "machine-learning",
+      "desc": "End-to-End Speech Processing Toolkit",
+      "url": null,
+      "repo": "https://github.com/espnet/espnet"
     },
     {
       "name": "essentia",
@@ -331,6 +355,20 @@
       "repo": "https://github.com/tibOin/macos_speech"
     },
     {
+      "name": "madmom",
+      "category": "visualization",
+      "desc": "Madmom is an audio signal processing library written in Python with a strong focus on music information retrieval (MIR) tasks.",
+      "url": null,
+      "repo": "https://github.com/cpjku/madmom"
+    },
+    {
+      "name": "magenta",
+      "category": "machine-learning",
+      "desc": "An open source research project exploring the role of machine learning as a tool in the creative process.",
+      "url": null,
+      "repo": "https://github.com/magenta"
+    },
+    {
       "name": "megra.rs",
       "category": "livecoding",
       "desc": "A mini-language to make music with variable-order markov chains.",
@@ -373,6 +411,13 @@
       "repo": "https://github.com/shakfu/minihost"
     },
     {
+      "name": "musicaiz",
+      "category": "symbolic",
+      "desc": "A python framework for symbolic music generation, evaluation and analysis.",
+      "url": null,
+      "repo": "https://github.com/carlosholivan/musicaiz"
+    },
+    {
       "name": "musicli",
       "category": "sequencer",
       "desc": "TUI MIDI sequencer",
@@ -385,6 +430,13 @@
       "desc": "Musicpy is a music programming language in Python.",
       "url": "https://musicpy.readthedocs.io/en/latest/",
       "repo": "https://github.com/Rainbow-Dreamer/musicpy"
+    },
+    {
+      "name": "muspy",
+      "category": "symbolic",
+      "desc": "A toolkit for symbolic music generation.",
+      "url": null,
+      "repo": "https://github.com/salu133445/muspy"
     },
     {
       "name": "nanodsp",
@@ -457,6 +509,13 @@
       "repo": "https://github.com/kunitoki/popsicle"
     },
     {
+      "name": "pretty_midi",
+      "category": "midi",
+      "desc": "Utility functions for handling MIDI data in a nice/intuitive way.",
+      "url": null,
+      "repo": "https://github.com/craffel/pretty-midi"
+    },
+    {
       "name": "psnd",
       "category": "music-programming",
       "desc": "A polyglot editor & REPL for music programming languages.",
@@ -504,6 +563,13 @@
       "desc": "A customizable and beat-matched crossfade functionality.",
       "url": null,
       "repo": "https://github.com/oguzhan-yilmaz/pyCrossfade"
+    },
+    {
+      "name": "pydub",
+      "category": "utility",
+      "desc": "Manipulate audio with a simple and easy high level interface.",
+      "url": null,
+      "repo": "https://github.com/jiaaro/pydub"
     },
     {
       "name": "pylive",
@@ -611,6 +677,13 @@
       "repo": "https://github.com/bmcfee/resampy"
     },
     {
+      "name": "riffusion-hobby",
+      "category": "machine-learning",
+      "desc": "Stable diffusion for real-time music generation.",
+      "url": null,
+      "repo": "https://github.com/riffusion/riffusion-hobby"
+    },
+    {
       "name": "rtrack",
       "category": "tracker",
       "desc": "A MIDI/Audio tracker written in Rust with both TUI and GUI frontends.",
@@ -674,6 +747,13 @@
       "repo": "https://github.com/emprcl/signls"
     },
     {
+      "name": "softcut-py",
+      "category": "resampling",
+      "desc": "Python wrapper for monome's softcut-lib using nanobind.",
+      "url": null,
+      "repo": "https://github.com/shakfu/softcut-py"
+    },
+    {
       "name": "soundcard",
       "category": "audio-interface",
       "desc": "A Pure-Python Real-Time Audio Library.",
@@ -693,6 +773,13 @@
       "desc": "Python bindings for SoX.",
       "url": null,
       "repo": "https://github.com/pseeth/soxbindings"
+    },
+    {
+      "name": "spotipy",
+      "category": "api",
+      "desc": "A light weight Python library for the Spotify Web API.",
+      "url": null,
+      "repo": "https://github.com/spotipy-dev/spotipy"
     },
     {
       "name": "strudel",
