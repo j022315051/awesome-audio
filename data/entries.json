@@ -21,6 +21,7 @@
     "max-msp",
     "midi",
     "monome",
+    "music-player",
     "music-programming",
     "music-theory",
     "plugins",
@@ -493,6 +494,13 @@
       "desc": "Pippi is a library of computer music modules for python.",
       "url": "https://pippi.world",
       "repo": "https://git.sr.ht/~hecanjog/pippi"
+    },
+    {
+      "name": "playr",
+      "category": "music-player",
+      "desc": "A minimal music player with varispeed playback and sampling.",
+      "url": null,
+      "repo": "https://github.com/shakfu/playr"
     },
     {
       "name": "plebtracker",
