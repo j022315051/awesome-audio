@@ -370,6 +370,13 @@
       "repo": "https://github.com/magenta"
     },
     {
+      "name": "mdsp",
+      "category": "dsp",
+      "desc": "A dsp library in python and mojo.",
+      "url": null,
+      "repo": "https://github.com/shakfu/mdsp"
+    },
+    {
       "name": "megra.rs",
       "category": "livecoding",
       "desc": "A mini-language to make music with variable-order markov chains.",
